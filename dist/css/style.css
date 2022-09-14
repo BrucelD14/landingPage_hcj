@@ -11,6 +11,15 @@
     margin-inline: auto;
 }
 
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url('../../image/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .navigation{
     width: 100%;
 }
@@ -19,4 +28,32 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navigation .box-navigation .box:nth-child(1) h1{
+    font-size: 38px;
+    color: white;
+
+}
+
+.navigation .box-navigation .box:nth-child(2) ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease;
+
+}
+
+.navigation .box-navigation .box:nth-child(2) ul li a:hover{
+    color: greenyellow;
 }
