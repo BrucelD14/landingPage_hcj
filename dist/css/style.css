@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin-inline: auto;
+}
+
+.navigation{
+    width: 100%;
+}
+
+.navigation .box-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
