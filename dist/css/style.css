@@ -22,6 +22,7 @@ header{
 
 .navigation{
     width: 100%;
+    padding: 20px 0 10px 0;
 }
 
 .navigation .box-navigation{
@@ -56,4 +57,51 @@ header{
 
 .navigation .box-navigation .box:nth-child(2) ul li a:hover{
     color: greenyellow;
+}
+
+.navigation .box-navigation .box:nth-child(3){
+    display: none;
+}
+
+
+/* media query | responsif */
+@media screen and (max-width: 990px){
+    .navigation .box-navigation .box:nth-child(2){
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        background-color: white;
+        width: 250px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: all .3s ease;
+    }
+
+    .navigation .box-navigation .menu-navigation.menu-active{
+        opacity: 1;
+        top: 100px;
+    }
+
+    .navigation .box-navigation .box:nth-child(2) ul{
+        flex-direction: column;
+    }
+
+    .navigation .box-navigation .box:nth-child(2) ul li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navigation .box-navigation .box:nth-child(2) ul li a{
+        color: black;
+    }
+
+    .navigation .box-navigation .box:nth-child(3){
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation .box-navigation .box:nth-child(3) i{
+        font-size: 28px;
+    }
 }
