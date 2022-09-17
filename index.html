@@ -17,7 +17,7 @@
     <!-- remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
-<body>
+<body id="home">
 
     
     <header>
@@ -32,23 +32,23 @@
                         <ul>
                             <li>
                                 <i class="ri-home-3-line"></i>
-                                <a href="#">Beranda</a>
+                                <a href="#home">Beranda</a>
                             </li>
                             <li>
                                 <i class="ri-information-line"></i>
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
                                 <i class="ri-dashboard-line"></i>
-                                <a href="#">Famous</a>
+                                <a href="#famous">Famous</a>
                             </li>
                             <li>
                                 <i class="ri-gallery-line"></i>
-                                <a href="#">Gallery</a>
+                                <a href="#gallery">Gallery</a>
                             </li>
                             <li>
                                 <i class="ri-phone-line"></i>
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +68,7 @@
     </header>
 
     <!-- awal about -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="box-about">
                 <div class="box">
@@ -84,7 +84,7 @@
     <!-- akhir about -->
 
     <!-- awal famous -->
-    <section class="famous">
+    <section class="famous" id="famous">
         <div class="container">
             <div class="box-famous">
                 <div class="box">
@@ -108,7 +108,7 @@
     <!-- akhir famous -->
 
     <!-- awal gallery -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <div class="container">
             <div class="box-gallery">
                 <img src="./image/1.jpg" alt="gallery view">
@@ -123,7 +123,7 @@
     <!-- akhir gallery -->
 
     <!-- awal contact -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="box-contact">
                 <h1>Contact</h1>
@@ -139,7 +139,7 @@
                         </tr>
                         <tr>
                             <td><label for="pesan">Pesan</label></td>
-                            <td><textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Masukkan Pesan.." autocomplete="off"></textarea></td>
+                            <td><textarea name="pesan" id="pesan" placeholder="Masukkan Pesan.." autocomplete="off"></textarea></td>
                         </tr>
                     </table>
                 </form>
@@ -147,6 +147,12 @@
         </div>
     </section>
     <!-- akhir contact -->
+
+    <!-- awal footer -->
+    <footer>
+        <p>&copy; 2022 by Brucel D. Samudera</p>
+    </footer>
+    <!-- akhir footer -->
     
 
 <script src="./dist/js/script.js"></script>
