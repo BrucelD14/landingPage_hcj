@@ -209,6 +209,16 @@ header .hero h1{
 .contact .box-contact form table tr td textarea{
     margin-top: 5px;
     padding: 15px 200px 200px 20px;
+    margin-bottom: 20px;
+}
+
+.contact .box-contact form table tr td input[type=submit]{
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+}
+
+.contact .box-contact form table tr td input[type=submit]:hover{
+    cursor: pointer;
 }
 
 /* footer style */
